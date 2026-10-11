@@ -1,0 +1,50 @@
+{
+  "n_arm": 44700,
+  "mde": {
+    "retention_1": {
+      "baseline": 0.4452095044850259,
+      "mde_abs": 0.009313475861678367,
+      "observed": -0.005905169787341458,
+      "power_for_observed": 0.4271515558592649
+    },
+    "retention_7": {
+      "baseline": 0.1860648194347426,
+      "mde_abs": 0.0072927632775463365,
+      "observed": -0.008201298315205913,
+      "power_for_observed": 0.883103258615193
+    }
+  },
+  "cuped_variants": [
+    {
+      "id": "V1",
+      "covariate": "retention_1（第 1 天留存）",
+      "theta": 0.2563660627128324,
+      "rho": 0.3274011572788675,
+      "var_reduction": 0.10719151778754173,
+      "multiplier": 1.1200610432395441,
+      "raw_effect": -0.008201298315205913,
+      "adj_effect": -0.006687413187174418,
+      "attenuation": 0.18459091107863024,
+      "adj_p": 0.006326085961693409,
+      "cov_p": 0.07440965529691917,
+      "note": "实验期内第 1 天测得",
+      "is_pre_treatment": false
+    },
+    {
+      "id": "V2",
+      "covariate": "log1p(sum_gamerounds)（14 天总回合）",
+      "theta": 0.14037521110016726,
+      "rho": 0.5424363128455862,
+      "var_reduction": 0.2942371534935147,
+      "multiplier": 1.4169065500542906,
+      "raw_effect": -0.008201298315205913,
+      "adj_effect": -0.00565088165958344,
+      "attenuation": 0.3109771840506985,
+      "adj_p": 0.009459534400388717,
+      "cov_p": 0.06964323357586351,
+      "note": "实验期内 14 天累计测得",
+      "is_pre_treatment": false
+    }
+  ],
+  "cuped_requirement": "CUPED 要求协变量为实验前变量；本数据集不满足，仅作方法演示"
+}

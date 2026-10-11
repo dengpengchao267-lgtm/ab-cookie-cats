@@ -1,0 +1,22 @@
+{
+  "file": "D:\\deepseek work\\cookie_cats.csv",
+  "rows": 90189,
+  "columns": [
+    "userid",
+    "version",
+    "sum_gamerounds",
+    "retention_1",
+    "retention_7"
+  ],
+  "version_counts": {
+    "gate_40": 45489,
+    "gate_30": 44700
+  },
+  "nulls": {
+    "userid": 0,
+    "version": 0,
+    "sum_gamerounds": 0,
+    "retention_1": 0,
+    "retention_7": 0
+  }
+}

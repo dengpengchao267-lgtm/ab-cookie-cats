@@ -1,0 +1,42 @@
+{
+  "source_file": "D:\\deepseek work\\cookie_cats.csv",
+  "rows": 90189,
+  "n_control": 44700,
+  "n_treatment": 45489,
+  "duplicated_userid": 0,
+  "nulls": {
+    "userid": 0,
+    "version": 0,
+    "sum_gamerounds": 0,
+    "retention_1": 0,
+    "retention_7": 0
+  },
+  "zero_round_players": 3994,
+  "gamerounds": {
+    "min": 0,
+    "p50": 16.0,
+    "p95": 221.0,
+    "p999": 1073.6240000000107,
+    "max": 49854,
+    "mean": 51.8724567297564
+  },
+  "srm": {
+    "observed": [
+      44700,
+      45489
+    ],
+    "expected": [
+      45094.5,
+      45094.5
+    ],
+    "chi2": 6.9024049496058275,
+    "df": 1,
+    "p_value": 0.008607987810836035,
+    "observed_ratio": [
+      0.49562585237667567,
+      0.5043741476233243
+    ],
+    "verdict": "mild_srm"
+  },
+  "checks_pass": true
+}

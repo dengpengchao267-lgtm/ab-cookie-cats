@@ -1,0 +1,7 @@
+把数据文件放在这个目录下，脚本会自动在 data/ 和上一级目录里查找。
+
+文件名不限，列名会自动识别：
+  userid / version / sum_gamerounds / retention_1 / retention_7
+
+下载地址见仓库根目录 README 的「数据来源」一节。
+

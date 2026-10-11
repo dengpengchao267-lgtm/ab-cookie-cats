@@ -1,0 +1,121 @@
+{
+  "overall": [
+    {
+      "version": "gate_30",
+      "n_users": 44700,
+      "n_ret1": 20034,
+      "ret1_rate": 0.4481879194630872,
+      "n_ret7": 8502,
+      "ret7_rate": 0.19020134228187918,
+      "gamerounds_mean": 52.45626398210291,
+      "gamerounds_median": 17.0,
+      "gamerounds_p95": 222.0,
+      "zero_round_users": 1937,
+      "zero_round_rate": 0.043333333333333335
+    },
+    {
+      "version": "gate_40",
+      "n_users": 45489,
+      "n_ret1": 20119,
+      "ret1_rate": 0.44228274967574577,
+      "n_ret7": 8279,
+      "ret7_rate": 0.18200004396667327,
+      "gamerounds_mean": 51.29877552814966,
+      "gamerounds_median": 16.0,
+      "gamerounds_p95": 220.0,
+      "zero_round_users": 2057,
+      "zero_round_rate": 0.04521972344962518
+    }
+  ],
+  "quartile": [
+    {
+      "version": "gate_30",
+      "activity_quartile": 1,
+      "n_users": 11016,
+      "n_ret1": 633,
+      "ret1_rate": 0.05746187363834423,
+      "n_ret7": 128,
+      "ret7_rate": 0.011619462599854757,
+      "gamerounds_min": 0,
+      "gamerounds_max": 5
+    },
+    {
+      "version": "gate_40",
+      "activity_quartile": 1,
+      "n_users": 11532,
+      "n_ret1": 730,
+      "ret1_rate": 0.06330211585154354,
+      "n_ret7": 141,
+      "ret7_rate": 0.01222684703433923,
+      "gamerounds_min": 0,
+      "gamerounds_max": 5
+    },
+    {
+      "version": "gate_30",
+      "activity_quartile": 2,
+      "n_users": 11144,
+      "n_ret1": 2941,
+      "ret1_rate": 0.26390882986360376,
+      "n_ret7": 440,
+      "ret7_rate": 0.03948312993539124,
+      "gamerounds_min": 5,
+      "gamerounds_max": 16
+    },
+    {
+      "version": "gate_40",
+      "activity_quartile": 2,
+      "n_users": 11403,
+      "n_ret1": 2973,
+      "ret1_rate": 0.2607208629308077,
+      "n_ret7": 445,
+      "ret7_rate": 0.03902481803034289,
+      "gamerounds_min": 5,
+      "gamerounds_max": 16
+    },
+    {
+      "version": "gate_30",
+      "activity_quartile": 3,
+      "n_users": 11525,
+      "n_ret1": 6961,
+      "ret1_rate": 0.6039913232104122,
+      "n_ret7": 1695,
+      "ret7_rate": 0.1470715835140998,
+      "gamerounds_min": 16,
+      "gamerounds_max": 51
+    },
+    {
+      "version": "gate_40",
+      "activity_quartile": 3,
+      "n_users": 11022,
+      "n_ret1": 6584,
+      "ret1_rate": 0.5973507530393758,
+      "n_ret7": 1454,
+      "ret7_rate": 0.1319179822173834,
+      "gamerounds_min": 16,
+      "gamerounds_max": 51
+    },
+    {
+      "version": "gate_30",
+      "activity_quartile": 4,
+      "n_users": 11015,
+      "n_ret1": 9499,
+      "ret1_rate": 0.8623694961416251,
+      "n_ret7": 6239,
+      "ret7_rate": 0.5664094416704494,
+      "gamerounds_min": 51,
+      "gamerounds_max": 49854
+    },
+    {
+      "version": "gate_40",
+      "activity_quartile": 4,
+      "n_users": 11532,
+      "n_ret1": 9832,
+      "ret1_rate": 0.8525841137703781,
+      "n_ret7": 6239,
+      "ret7_rate": 0.5410163024627125,
+      "gamerounds_min": 51,
+      "gamerounds_max": 2640
+    }
+  ],
+  "gamerounds_cap_p95": 221.0
+}
